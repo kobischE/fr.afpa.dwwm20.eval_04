@@ -1,0 +1,32 @@
+/*
+Theme Name: EkmWP
+Theme URI: https://oceanwp.org/
+Description: EkmWP WordPress theme example child theme.
+Author: Junior
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+body{
+background-color: aqua;
+}
+#top-bar-wrap {
+    position: relative;
+    background-color: #000000;
+    font-size: 12px;
+    border-bottom: 1px solid #f1f1f1;
+    z-index: 101;
+}
+body.elementor-kit-11 {
+    background-color:red;
+    color: #2F3035;
+    font-family: "Montserrat", Montserrat;
+    font-size: 99px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 0.4em;
+    letter-spacing: 2.3px;
+}
